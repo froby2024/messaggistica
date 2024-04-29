@@ -14,7 +14,7 @@ template:
  spec: 
     containers: 
      - name: comment-ws
-       image: dariofrongillo/comment-ws:1.0.1
+       image: comment-ws:1.0.1
        ports:
         - containerPort: 8081 
        env:
